@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(228, 202, 235);
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(55, 63, 65);
+    padding: 15px;
+  
+}
+.menu{
+display: flex;
+gap: 12px;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(236, 216, 216);
+}
+.navbar a:hover{
+    background-color: rgb(73, 90, 192);
+   border-radius: 5px;
+   padding: 5px;
+}
+.logo{
+   color: azure;
+  
+}
